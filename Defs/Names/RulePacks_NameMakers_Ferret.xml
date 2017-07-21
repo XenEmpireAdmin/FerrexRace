@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+
+<RulePackDef>
+    <defName>NamerPersonFerrexMale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[FerrexMfirst] [Ferrexlast]</li>
+        <li>name->[badassrx] [Ferrexfirst]</li>
+        <li>name->[FerrexMfirst] '[badassrx]' [Ferrexlast]</li>
+        <li>name->[badassrx] '[nick]' [Ferrexlast]</li>
+        <li>name->[FerrexMfirst] '[nick]' [Ferrexlast]</li>
+        <li>name->[FerrexMfirst] [badassrx]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>FerrexMfirst</keyword>
+          <path>Ferrex_Names/FerrexM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Ferrexlast</keyword>
+          <path>Ferrex_Names/Ferrexlast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassrx</keyword>
+          <path>Ferrex_Names/Concepts_Rac</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nick</keyword>
+          <path>Ferrex_Names/Nicks</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerPersonFerrexFemale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[FerrexFfirst] [Ferrexlast]</li>
+        <li>name->[badassrx] [Ferrexfirst]</li>
+        <li>name->[FerrexFfirst] '[badassrx]' [Ferrexlast]</li>
+        <li>name->[FerrexFfirst] '[nick]' [Ferrexlast]</li>
+        <li>name->[FerrexFfirst] [badassrx]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>FerrexFfirst</keyword>
+          <path>Ferrex_Names/FerrexF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Ferrexlast</keyword>
+          <path>Ferrex_Names/Ferrexlast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassrx</keyword>
+          <path>Ferrex_Names/Concepts_Rac</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nick</keyword>
+          <path>Ferrex_Names/Nicks</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerFactionFerrex</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[subname] [corp]</li>
+        <li>name->[subname] [corp]</li>
+        <li>name->[subname] [corp]</li>
+        <li>name->[subname] [corp]</li>
+        <li>name->[subname] [politicaladjective] [corp]</li>
+        <li>name->[corp] of [subname]</li>
+        <li>name->[politicaladjective] [corp] of [subname]</li>
+        <li>subname->[wordname] [corp]</li>
+        <li>subname->[wordname] [corp]</li>
+        <li>subname->[wordname] [corp]</li>
+        <li>subname->[direction] [wordname] [corp]</li>
+        <li>wordname->[syl][endsyl] [corp]</li>
+				<li>wordname->[syl][endsyl] [corp]</li>
+				<li>wordname->[syl][endsyl] [corp]</li>
+				<li>wordname->[syl][syl][endsyl] [corp]</li>
+				<li>wordname->[syl][syl][endsyl] [corp]</li>
+				<li>wordname->[syl][syl][syl][endsyl] [corp]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>syl</keyword>
+          <path>WordParts/Syllables_English</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>endsyl</keyword>
+          <path>WordParts/PlaceEndings</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>direction</keyword>
+          <path>Words/Adjectives/CompassDirections</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>politicalunion</keyword>
+          <path>Words/Nouns/PoliticalUnions_Outlander</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>politicaladjective</keyword>
+          <path>Words/Adjectives/PoliticalUnions</path>
+        </li>
+          <li Class="Rule_File">
+          <keyword>Corp</keyword>
+          <path>Ferrex_Names/Company</path>
+        </li>  
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+ <RulePackDef>
+    <defName>NamerFactionBaseFerrex</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[positiveconcept]'s [terrainfeature] [inc]</li>
+        <li>name->[FerrexC]'s [terrainfeature] [inc]</li>
+        <li>name->[FerrexC]'s [inc]</li>
+        <li>nearname->[subname] [inc]</li>
+        <li>subname->[wordname] [inc]</li>
+        <li>subname->[community] [inc]</li>
+        <li>wordname->[syl][syl][inc]</li>
+        <li>wordname->[syl][townend][inc]</li>
+        <li>wordname->[syl][syl][townend][inc]</li>
+        <li>wordname->[terrainfeature][townend][inc]</li>
+        <li>townend->ville [inc]</li>
+        <li>townend->town [inc]</li>
+        <li>townend->hurst [inc]</li>
+        <li>townend->bourne [inc]</li>
+        <li>townend->brad [inc]</li>
+        <li>townend->dale [inc]</li>
+        <li>townend->hope [inc]</li>
+        <li>townend->ing [inc]</li>
+        <li>townend->ness [inc]</li>
+        <li>townend->mere [inc]</li>
+        <li>townend->shaw [inc]</li>
+        <li>townend->wick [inc]</li>
+      </rulesStrings>    
+        <rulesRaw>
+      <li Class="Rule_File">
+          <keyword>FerrexC</keyword>
+          <path>Ferrex_Names/FerrexM</path>
+        </li>
+      <li Class="Rule_File">
+          <keyword>inc</keyword>
+          <path>Ferrex_Names/Market</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>positiveconcept</keyword>
+          <path>Words/Nouns/Concepts_Positive</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>community</keyword>
+          <path>Words/Nouns/Communities</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>terrainfeature</keyword>
+          <path>Words/Nouns/TerrainFeatures</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>syl</keyword>
+          <path>WordParts/Syllables_English</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</NameMakerDefs>

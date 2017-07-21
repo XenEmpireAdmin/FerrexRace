@@ -1,0 +1,9 @@
+﻿Market
+Tradepost
+Bazaar
+Exchange
+Expo
+Shopping-Center
+Megaplex
+Plaza
+Galleria

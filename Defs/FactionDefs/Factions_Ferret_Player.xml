@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="FerrexFactionBase">
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef Parent="FerrexFactionBase">
+    <defName>FerrexPlayerColony</defName>
+    <label>Ferrex Corporation</label>
+    <description>Your own Ferrex Business.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Ferrex</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <factionNameMaker>NamerFactionFerrex</factionNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategory>FerrexBackstory</backstoryCategory>
+    <homeIconPath>World/FerrexBaseIcon</homeIconPath>
+    <expandingIconTexture>World/FerrexBaseIcon</expandingIconTexture>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>FerrexHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  
+    <FactionDef Parent="FerrexFactionBase">
+    <defName>FerrexPlayerColonyTribal</defName>
+    <label>Ferrex Business (Tribal)</label>
+    <description>Ferrex semi-tribal start. (No research done, but high tech level)</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Ferrex</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <factionNameMaker>NamerFactionFerrex</factionNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategory>FerrexBackstory</backstoryCategory>
+    <homeIconPath>World/FerrexBaseIcon</homeIconPath>
+    <expandingIconTexture>World/FerrexBaseIcon</expandingIconTexture>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>FerrexHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <colorSpectrum>
+      <li>(0, 0.437, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+
+</Defs>
