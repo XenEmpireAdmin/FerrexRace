@@ -108,7 +108,7 @@
           <path>Words/Adjectives/PoliticalUnions</path>
         </li>
           <li Class="Rule_File">
-          <keyword>Corp</keyword>
+          <keyword>corp</keyword>
           <path>Ferrex_Names/Company</path>
         </li>  
       </rulesRaw>
@@ -125,10 +125,10 @@
         <li>nearname->[subname] [inc]</li>
         <li>subname->[wordname] [inc]</li>
         <li>subname->[community] [inc]</li>
-        <li>wordname->[syl][syl][inc]</li>
-        <li>wordname->[syl][townend][inc]</li>
-        <li>wordname->[syl][syl][townend][inc]</li>
-        <li>wordname->[terrainfeature][townend][inc]</li>
+        <li>wordname->[syl][syl] [inc]</li>
+        <li>wordname->[syl][townend] [inc]</li>
+        <li>wordname->[syl][syl][townend] [inc]</li>
+        <li>wordname->[terrainfeature][townend] [inc]</li>
         <li>townend->ville [inc]</li>
         <li>townend->town [inc]</li>
         <li>townend->hurst [inc]</li>

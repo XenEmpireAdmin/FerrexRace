@@ -83,7 +83,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>4</damageAmountBase>
+      <damageAmountBase>6</damageAmountBase>
       <speed>65</speed>
     </projectile>
   </ThingDef>
@@ -125,6 +125,63 @@
 				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <range>24</range>
         <soundCast>Xen_SD</soundCast>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+ <ThingDef ParentName="BaseFerrexBullet">
+    <defName>Bullet_FP90x</defName>
+    <label>Vactor bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseFerrexMakeableGun">
+    <defName>Ferrex_P90x</defName>
+    <label>Ferrex F90</label>
+    <description>An advanced compact submachine gun produced by the Ferrex. They use an unconventional delayed blowback system combined with in-line design to reduce perceived recoil and muzzle climb.</description>
+    <graphicData>
+      <texPath>Things/Guns/P90x</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>325</MarketValue>
+      <Mass>1</Mass>
+      <AccuracyTouch>0.94</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <Component>3</Component>
+    </costList>
+    <weaponTags>
+      <li>FPistol</li>
+      <li>BallisticShield_ValidSidearm</li>
+      <li>MedievalShields_ValidSidearm</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_FP90x</projectileDef>
+        <warmupTime>1.20</warmupTime>
+        <burstShotCount>7</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <range>27</range>
+        <soundCast>ShotMachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
       </li>
     </verbs>
   </ThingDef>

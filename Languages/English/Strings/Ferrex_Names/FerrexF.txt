@@ -1,5 +1,7 @@
 Jade
 Sapphire
+Midna
+Tali
 Kit
 Dexa
 Tya
@@ -9,7 +11,6 @@ Geri
 Rem
 Loba
 Hunt
-Lykas
 Varu
 Tola
 Alex
@@ -23,7 +24,7 @@ Sweet
 Jo
 Ferrexa
 Chen
-Mystery
+Tik
 Tink
 Snow
 Rena
@@ -34,12 +35,12 @@ Pink
 Sinitell
 Cucumpear
 Gazzy
-Dagger
-Kukri
+Kris
+Diana
 Katana
 Sai
 Bo
-Ayudha
+Pika
 Felicia
 Tail
 Kena
@@ -67,3 +68,5 @@ Ada
 Galaxia
 Ro
 Rax
+Fera
+Petra
