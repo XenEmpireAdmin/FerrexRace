@@ -61,7 +61,6 @@
                 <alienbodytypes>
                 <li>Thin</li>
                 </alienbodytypes>
-				<TailBodyPart>Tail</TailBodyPart>
             <alienskincolorgen Class="ColorGenerator_Options">
             <options>
              <li>
@@ -147,7 +146,36 @@
                     </li>
                 </options>
             </alienskinsecondcolorgen>
-                <UseSkinColorForTail>true</UseSkinColorForTail>
+        <bodyAddons>
+            <li>
+				<path>Things/Ferrex/Tails/Ftail</path>
+                <bodyPart>Tail</bodyPart>
+                <UseSkinColor>true</UseSkinColor>
+                <inFrontOfBody>false</inFrontOfBody>
+                      <offsets>
+                <front>
+                                    <bodyTypes>
+                                    <Thin>(0,-0.22)</Thin>
+                                    </bodyTypes>
+                </front>
+
+                <back>
+                                    <bodyTypes>
+                                    <Thin>(0,-0.22)</Thin>
+                                    </bodyTypes>
+                </back>
+
+                <side>
+                                    <bodyTypes>
+                                    <Thin>(0.36,-0.36)</Thin>
+                                    </bodyTypes>
+                </side>
+                </offsets>
+                <hediffGraphics>
+                <BionicFerrexTail>Things/Ferrex/Tails/FtailBionic</BionicFerrexTail>
+                </hediffGraphics>
+                </li>
+            </bodyAddons>
             </alienPartGenerator>
 			<chemicalSettings>	
 		    </chemicalSettings>
@@ -156,7 +184,6 @@
             <li>
                 <head>Things/Ferrex/Heads/</head>
                 <body>Things/Ferrex/Bodies/</body>
-				<Tail>Things/Ferrex/Tails/Ftail</Tail>
             </li>
         </graphicPaths>
         <hairSettings>

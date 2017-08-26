@@ -132,7 +132,7 @@
 
     <AlienRace.BackstoryDef>
     <defName>FerrexSpacer</defName>
-    <title>Spacer Ferrex</title>
+    <title>Ferrex spacer</title>
     <titleShort>Rocket</titleShort>
     <baseDescription>NAME grew up working on HIS parents' space hotel. It was an old abandoned orbital science facility that had been converted over to cater to a space-loving wealthy clientele. A sudden meteor shower brought it all to an abrupt end one day though - luckily enough, everyone made it to the escape pods...</baseDescription>
     <slot>Childhood</slot>

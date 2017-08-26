@@ -123,7 +123,7 @@
 
 <AlienRace.BackstoryDef>
     <defName>FerrexCSKid</defName>
-    <title>Young Astrophysicist</title>
+    <title>Young astrophysicist</title>
 	<titleShort>Astrokid</titleShort>
     <baseDescription>A young NAME was inspired by a visit to the World's Fair. Seeing all the amazing applications and explorations of science left a deep sense of awe and wonder at the mechanics of the universe. This started HIS path to astronomy and astrophysics.</baseDescription>
     <slot>Childhood</slot>
