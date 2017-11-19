@@ -14,7 +14,9 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Ferrex</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <factionNameMaker>NamerFactionFerrex</factionNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
+		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
+		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
     <techLevel>Ultra</techLevel>
     <backstoryCategory>FerrexBackstory</backstoryCategory>
     <homeIconPath>World/FerrexBaseIcon</homeIconPath>
@@ -39,7 +41,9 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Ferrex</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <factionNameMaker>NamerFactionFerrex</factionNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerTribe</baseNameMaker>
+		<baseNameMakerPlayer>NamerFactionTribal</baseNameMakerPlayer>
+		<factionNameMakerPlayer>NamerFactionBaseTribal</factionNameMakerPlayer>
     <techLevel>Ultra</techLevel>
     <backstoryCategory>FerrexBackstory</backstoryCategory>
     <homeIconPath>World/FerrexBaseIcon</homeIconPath>

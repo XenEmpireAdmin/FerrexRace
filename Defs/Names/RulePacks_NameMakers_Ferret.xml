@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<NameMakerDefs>
+<Defs>
 
 <RulePackDef>
     <defName>NamerPersonFerrexMale</defName>
@@ -170,4 +170,4 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
-</NameMakerDefs>
+</Defs>

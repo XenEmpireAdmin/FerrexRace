@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<PawnKindDefs>
+<Defs>
 
   <!-- ============================ Ferrex Base ========================== -->
 
@@ -383,4 +383,4 @@
     </inventoryOptions>
   </PawnKindDef>
   
-</PawnKindDefs>
+</Defs>
