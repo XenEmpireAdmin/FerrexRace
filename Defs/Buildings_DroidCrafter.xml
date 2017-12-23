@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>FerrexConsole</defName>
+		<label>ferrex business network</label>
+		<thingClass>Ferrex.Building_FerrexCrafter</thingClass>
+		<description>A terminal connected to the Ferrex Business Network, </description>
+		<graphicData>
+			<texPath>Things/Building/MiniComm</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<drawerType>RealtimeOnly</drawerType>
+		<castEdgeShadows>false</castEdgeShadows>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<canOverlapZones>false</canOverlapZones>
+		<costStuffCount>300</costStuffCount>
+		<costList>
+			<Component>15</Component>
+		</costList>
+		<tickerType>Normal</tickerType>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>4000</WorkToBuild>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+			<Cleanliness>-2</Cleanliness>
+		</statBases>
+		<size>(1,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<startElectricalFires>true</startElectricalFires>
+				<basePowerConsumption>800</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(255, 255, 255,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<building />
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="Ferrex.PawnCrafterProperties">
+				<pawnKind>FerrexProfessional</pawnKind>
+				<costList>
+					<Silver>5000</Silver>
+				</costList>
+				<pawnCraftedLetterLabel>FerrexFBNLetterLabel</pawnCraftedLetterLabel>
+				<pawnCraftedLetterText>FerrexFBNLetterDescription</pawnCraftedLetterText>
+				<ticksToCraft>150</ticksToCraft>
+				<resourceTick>50</resourceTick>
+			</li>
+		</modExtensions>
+	</ThingDef>
+</Defs>

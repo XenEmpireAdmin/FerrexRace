@@ -39,17 +39,17 @@
             <immuneToAge>true</immuneToAge>
             <forcedRaceTraitEntries>
                 <li>
-                    <defname>NaturalMood</defname>
+                    <defName>NaturalMood</defName>
                     <degree>2</degree>
                     <chance>20</chance>
                 </li>
                 <li>
-                    <defname>Beauty</defname>
+                    <defName>Beauty</defName>
                     <degree>2</degree>
                     <chance>20</chance>
                 </li>
                 <li>
-                    <defname>Kind</defname>
+                    <defName>Kind</defName>
 					<chance>10</chance>
                 </li>
             </forcedRaceTraitEntries>

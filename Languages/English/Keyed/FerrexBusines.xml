@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- Printer Building -->
+	<FerrexTab>Settings</FerrexTab>
+	<FerrexTabTitle>Nutrition Sources</FerrexTabTitle>
+	<FerrexNutrition>Nutrition</FerrexNutrition>
+	<FerrexPrinterStatus>Status: {0}</FerrexPrinterStatus>
+	<FerrexPrinterFerrex>Ferrex: {0}</FerrexPrinterFerrex>
+	<FerrexPrinterProgress>Contract processing: {0}</FerrexPrinterProgress>
+	<FerrexPrinterNeed>Need {0} {1}.</FerrexPrinterNeed>
+	<FerrexPrinterMaterials>Materials:</FerrexPrinterMaterials>
+	<FerrexPrinterStatusEnum0>Idle</FerrexPrinterStatusEnum0>
+	<FerrexPrinterStatusEnum1>Filling</FerrexPrinterStatusEnum1>
+	<FerrexPrinterStatusEnum2>Printing</FerrexPrinterStatusEnum2>
+	<FerrexPrinterStatusEnum3>Finished</FerrexPrinterStatusEnum3>
+
+	<!-- Letters -->
+	<FerrexFBNLetterLabel>Ferrex {0} Hired</FerrexFBNLetterLabel>
+	<FerrexFBNLetterDescription>Welcome new hire {0}!\n\n .</FerrexFBNLetterDescription>
+	<!-- Gizmos -->
+	<FerrexGizmoTogglePrintingStartLabel>Search Employees</FerrexGizmoTogglePrintingStartLabel>
+	<FerrexGizmoTogglePrintingStartDescription>Initiates the hiring process.</FerrexGizmoTogglePrintingStartDescription>
+	<FerrexGizmoTogglePrintingStopLabel>Abort hiring</FerrexGizmoTogglePrintingStopLabel>
+	<FerrexGizmoTogglePrintingStopDescription>Aborts the hiring progress. All used funds will be gone forever.</FerrexGizmoTogglePrintingStopDescription>
+	<FerrexGizmoPrinterFerrexInfoDescription>Pawn being hired infocard.</FerrexGizmoPrinterFerrexInfoDescription>
+
+	<!-- Ferrex Customization -->
+	<FerrexCustomization>Ferrex Customization</FerrexCustomization>
+	<FerrexCustomizationChangeColor>Change color to</FerrexCustomizationChangeColor>
+	<FerrexCustomizationPrint>Hire</FerrexCustomizationPrint>
+	<FerrexCustomizationRollFemale>Female Resume</FerrexCustomizationRollFemale>
+	<FerrexCustomizationRollMale>Male Resume</FerrexCustomizationRollMale>
+	<FerrexNone>None</FerrexNone>
+	<FerrexCustomizationFirstIdentity>Childhood:</FerrexCustomizationFirstIdentity>
+	<FerrexCustomizationSecondIdentity>Adulthood:</FerrexCustomizationSecondIdentity>
+
+</LanguageData>

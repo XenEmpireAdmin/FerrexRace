@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<WorkGiverDef>
+		<defName>XFRXNetworkPayment</defName>
+		<label>fill droid manufactories</label>
+		<giverClass>Ferrex.WorkGiver_PawnCrafter</giverClass>
+		<workType>Hauling</workType>
+		<verb>fill</verb>
+		<gerund>filling</gerund>
+		<priorityInType>62</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+		<modExtensions>
+			<li Class="Ferrex.PawnCrafterWorkgiverProperties">
+				<defToScan>FerrexConsole</defToScan>
+				<fillJob>XPayDaManJobDef</fillJob>
+			</li>
+		</modExtensions>
+	</WorkGiverDef>
+</Defs>
