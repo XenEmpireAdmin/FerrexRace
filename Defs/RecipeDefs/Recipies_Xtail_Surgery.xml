@@ -34,7 +34,7 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>RTail</li>
+                  <li>FTail</li>
                </thingDefs>
             </filter>
             <count>1</count>
@@ -45,7 +45,7 @@
             <li>Medicine</li>
          </categories>
          <thingDefs>
-            <li>RTail</li>
+            <li>FTail</li>
          </thingDefs>
       </fixedIngredientFilter>
       <appliedOnFixedBodyParts>

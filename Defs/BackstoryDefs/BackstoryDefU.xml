@@ -4,7 +4,7 @@
     <defName>FerrexMulderKid</defName>
     <title>Spooky kid</title>
 	<titleShort>Spooky</titleShort>
-    <baseDescription>NAME grew up in a relatively average home, with HIS father working for the government. HIS whole world changed one night, when HIS sister was carried away by a strange light...</baseDescription>
+    <baseDescription>[PAWN_nameDef] grew up in a relatively average home, with [PAWN_possessive] father working for the government. [PAWN_possessive] whole world changed one night, when [PAWN_possessive] sister was carried away by a strange light...</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeGlobal>Thin</bodyTypeGlobal>
     <spawnCategories>
@@ -30,7 +30,7 @@
     <defName>FerrexMulderAdult</defName>
     <title>Federal investigator</title>
 	<titleShort>FBI</titleShort>
-    <baseDescription>The mysterious disappearance of Mulder's sister and his ensuing search for her became the consuming drive of his life. HECAP graduated from university with a degree in psychology, and joined the Federal Investigation service. After garnering some fame as an outstanding criminal psychologist and profiler, HECAP discovered an obscure section dealing with a mass of strange unexplained and unsolved case files. HECAP pored over these cases in his spare time, becoming obsessed with them. Dana Scully, an instructor at the Academy's Forensic Science Research and Training Center, was partnered with him for the purpose of applying scientific reasoning to Mulder's work and theories.
+    <baseDescription>The mysterious disappearance of Mulder's sister and his ensuing search for her became the consuming drive of his life. [PAWN_pronoun] graduated from university with a degree in psychology, and joined the Federal Investigation service. After garnering some fame as an outstanding criminal psychologist and profiler, [PAWN_pronoun] discovered an obscure section dealing with a mass of strange unexplained and unsolved case files. [PAWN_pronoun] pored over these cases in his spare time, becoming obsessed with them. Dana Scully, an instructor at the Academy's Forensic Science Research and Training Center, was partnered with him for the purpose of applying scientific reasoning to Mulder's work and theories.
     </baseDescription>
     <slot>Adulthood</slot>
 	<bodyTypeGlobal>Thin</bodyTypeGlobal>
@@ -94,7 +94,7 @@
     <defName>FerrexSmileyAdult</defName>
     <title>Head of intelligence</title>
 	<titleShort>Intel-Head</titleShort>
-    <baseDescription>NAME became the head of intelligence after uncovering an enemy mole placed at the top ranks of the intelligence agency. After a long and costly 'secret war', he was able to turn his opposite in the enemy's intelligence agency.
+    <baseDescription>[PAWN_nameDef] became the head of intelligence after uncovering an enemy mole placed at the top ranks of the intelligence agency. After a long and costly 'secret war', he was able to turn his opposite in the enemy's intelligence agency.
     </baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
@@ -125,7 +125,7 @@
     <defName>FerrexCSKid</defName>
     <title>Young astrophysicist</title>
 	<titleShort>Astrokid</titleShort>
-    <baseDescription>A young NAME was inspired by a visit to the World's Fair. Seeing all the amazing applications and explorations of science left a deep sense of awe and wonder at the mechanics of the universe. This started HIS path to astronomy and astrophysics.</baseDescription>
+    <baseDescription>A young [PAWN_nameDef] was inspired by a visit to the World's Fair. Seeing all the amazing applications and explorations of science left a deep sense of awe and wonder at the mechanics of the universe. This started [PAWN_possessive] path to astronomy and astrophysics.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>FerrexBackstory</li>
@@ -153,7 +153,7 @@
     <defName>FerrexSaganAdult</defName>
     <title>Astrophysics professor</title>
 	<titleShort>Professor</titleShort>
-    <baseDescription>Over time, NAME's passion for scientific discovery pushed HIM to write a multitude of books and other media devoted to astronomy and astrophysics. How did HECAP end up here?... 
+    <baseDescription>Over time, [PAWN_nameDef]'s passion for scientific discovery pushed [PAWN_pronoun] to write a multitude of books and other media devoted to astronomy and astrophysics. How did [PAWN_pronoun] end up here?... 
     </baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
@@ -184,7 +184,7 @@
     <defName>FerrexHanzoKid</defName>
     <title>Soldier trainee</title>
 	<titleShort>Trainee</titleShort>
-    <baseDescription>NAME has spent most of HIS youth training in an elite military academy. Alongside scholastics, the academy has an extensive military training regimen. Many intelligence agents and brilliant tacticians are among it's graduates.</baseDescription>
+    <baseDescription>[PAWN_nameDef] has spent most of [PAWN_possessive] youth training in an elite military academy. Alongside scholastics, the academy has an extensive military training regimen. Many intelligence agents and brilliant tacticians are among it's graduates.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>FerrexBackstory</li>
@@ -216,7 +216,7 @@
     <defName>FerrexHanzo</defName>
     <title>Ninja tactician</title>
 	<titleShort>Tactician</titleShort>
-    <baseDescription>NAME established a reputation as a brilliant tactician and formidable warrior after planning brilliant defenses against a large bandit clan, and performing several escorts and daring rescues of government officials.
+    <baseDescription>[PAWN_nameDef] established a reputation as a brilliant tactician and formidable warrior after planning brilliant defenses against a large bandit clan, and performing several escorts and daring rescues of government officials.
     </baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>

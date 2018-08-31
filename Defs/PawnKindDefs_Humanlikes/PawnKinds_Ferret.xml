@@ -6,16 +6,19 @@
   <PawnKindDef Name="FerrexBase" Abstract="True">
     <defaultFactionType>FerrexBusiness</defaultFactionType>
     <race>Alien_Ferrex</race>
-	<backstoryCategory>FerrexBackstory</backstoryCategory>
+  <backstoryCategories>
+			<li>FerrexBackstory</li>
+  	</backstoryCategories>
     <chemicalAddictionChance>0.005</chemicalAddictionChance>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
-    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelTags>
       <li>Outlander</li>
 	  <li>Military</li>
     </apparelTags>
 	 <weaponTags>
 	  <li>EliteGun</li>
+    <li>AdvancedGun</li>
     </weaponTags>
   </PawnKindDef>
   
@@ -41,7 +44,8 @@
     <weaponTags>
       <li>Gun</li>
       <li>NonNeolithicOnlyMelee</li>
-	  <li>AdvancedGun</li>
+	    <li>AdvancedGun</li>
+      <li>FPistol</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -129,6 +133,7 @@
     </weaponMoney>
     <weaponTags>
 	  <li>AdvancedGun</li>
+    <li>FPistol</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -178,6 +183,8 @@
     </weaponMoney>
     <weaponTags>
 	  <li>EliteGun</li>
+    <li>AdvancedGun</li>
+    <li>FPistol</li>
     </weaponTags>
     <techHediffsMoney>
       <min>1000</min>
@@ -194,7 +201,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -232,11 +239,11 @@
     </apparelMoney>
     <weaponMoney>
       <min>1400</min>
-      <max>28000</max>
+      <max>25000</max>
     </weaponMoney>
     <weaponTags>
       <li>SniperRifle</li>
-	  <li>AdvancedGun</li>
+	    <li>AdvancedGun</li>
     </weaponTags>
     <techHediffsMoney>
       <min>1000</min>
@@ -261,7 +268,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -316,7 +323,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>
@@ -374,7 +381,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>

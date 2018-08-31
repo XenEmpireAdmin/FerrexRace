@@ -14,7 +14,9 @@
     <defName>Ferrex</defName>
     <label>colonist</label>
     <defaultFactionType>FerrexPlayerColony</defaultFactionType>
-    <backstoryCategory>FerrexBackstory</backstoryCategory>
+    <backstoryCategories>
+			<li>FerrexBackstory</li>
+  	</backstoryCategories>
     <apparelTags>
       <li>Spacer</li>
     </apparelTags>

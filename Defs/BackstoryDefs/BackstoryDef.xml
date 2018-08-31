@@ -5,7 +5,7 @@
     <defName>FerrexSpyKid</defName>
     <title>Law student</title>
 	<titleShort>Law-student</titleShort>
-    <baseDescription>NAME attended one of the premiere law schools after basic schooling. HECAP learned all about business law, and accounting.</baseDescription>
+    <baseDescription>[PAWN_nameDef] attended one of the premiere law schools after basic schooling. [PAWN_pronoun] learned all about business law, and accounting.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	<maleCommonality>20</maleCommonality>
@@ -38,7 +38,7 @@
     <defName>FerrexToughkid</defName>
     <title>Smart-kid</title>
 	  <titleShort>Smart-kid</titleShort>
-    <baseDescription>NAME was quickly recognized as being a gifted child. HECAP started reading and learning everything HE could from a very young age.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was quickly recognized as being a gifted child. [PAWN_pronoun] started reading and learning everything HE could from a very young age.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 	  <maleCommonality>20</maleCommonality>
@@ -56,7 +56,7 @@
         <amount>4</amount>
       </li>
 	   <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>2</amount>
       </li>
       <li>
@@ -74,7 +74,7 @@
     <defName>FerrexEngineer</defName>
     <title>Ferrex mechanic</title>
 	<titleShort>Greasehead</titleShort>
-    <baseDescription>NAME worked with HIS father, running an old Auto-repair shop in a dusty frontier town. How HECAP ended up here is a mystery...</baseDescription>
+    <baseDescription>[PAWN_nameDef] worked with [PAWN_possessive] father, running an old Auto-repair shop in a dusty frontier town. How [PAWN_pronoun] ended up here is a mystery...</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>FerrexBackstory</li>
@@ -98,7 +98,7 @@
     <defName>FerrexCuriouskid</defName>
     <title>Nature kid</title>
 	<titleShort>Naturekid</titleShort>
-    <baseDescription>NAME grew up loving everything about nature and the outdoors. There was seldom a day when HECAP wasn't exploring the local woods, taming and befriending various animals.</baseDescription>
+    <baseDescription>[PAWN_nameDef] grew up loving everything about nature and the outdoors. There was seldom a day when [PAWN_pronoun] wasn't exploring the local woods, taming and befriending various animals.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>FerrexBackstory</li>
@@ -124,7 +124,7 @@
         <amount>3</amount>
       </li>
        <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>3</amount>
       </li>
     </skillGains>
@@ -134,7 +134,7 @@
     <defName>FerrexSpacer</defName>
     <title>Ferrex spacer</title>
     <titleShort>Rocket</titleShort>
-    <baseDescription>NAME grew up working on HIS parents' space hotel. It was an old abandoned orbital science facility that had been converted over to cater to a space-loving wealthy clientele. A sudden meteor shower brought it all to an abrupt end one day though - luckily enough, everyone made it to the escape pods...</baseDescription>
+    <baseDescription>[PAWN_nameDef] grew up working on [PAWN_possessive] parents' space hotel. It was an old abandoned orbital science facility that had been converted over to cater to a space-loving wealthy clientele. A sudden meteor shower brought it all to an abrupt end one day though - luckily enough, everyone made it to the escape pods...</baseDescription>
     <slot>Childhood</slot>
 	  <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>30</maleCommonality>
@@ -162,7 +162,7 @@
     <defName>FerrexSticky</defName>
     <title>Stickyfingers</title>
     <titleShort>Stickyfingers</titleShort>
-    <baseDescription>If something was missing, it was probably NAME. Ever since HECAP could crawl, HECAP was getting into everything, and secreting things away in all kinds of little cubbyholes. A very sneaky and clever one here.</baseDescription>
+    <baseDescription>If something was missing, it was probably [PAWN_nameDef]. Ever since [PAWN_pronoun] could crawl, [PAWN_pronoun] was getting into everything, and secreting things away in all kinds of little cubbyholes. A very sneaky and clever one here.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>20</maleCommonality>
@@ -198,7 +198,7 @@
     <defName>FerrexColonyKid</defName>
     <title>Ferrex colonykid</title>
     <titleShort>Kid</titleShort>
-    <baseDescription>NAME was born in a small trading post on the outer rims. HECAP had to learn to carry HIS weight and keep the colony running from an early age.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was born in a small trading post on the outer rims. [PAWN_pronoun] had to learn to carry [PAWN_possessive] weight and keep the colony running from an early age.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>80</maleCommonality>
@@ -213,7 +213,7 @@
         <amount>1</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>2</amount>
       </li>
     </skillGains>
@@ -226,7 +226,7 @@
     <defName>FerrexCoreKid</defName>
     <title>Ferrex corekid</title>
     <titleShort>Corekid</titleShort>
-    <baseDescription>NAME was born on one of the core ecumenopolis in the Xenn Empire, not entirely uncommon, as the races have been long-time allies. HECAP grew up in one of the many arcologies, spending much of HIS time in the upper-level arboretums playing with friends.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was born on one of the core ecumenopolis in the Xenn Empire, not entirely uncommon, as the races have been long-time allies. [PAWN_pronoun] grew up in one of the many arcologies, spending much of [PAWN_possessive] time in the upper-level arboretums playing with friends.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>90</maleCommonality>
 	<femaleCommonality>90</femaleCommonality>
@@ -237,7 +237,7 @@
         <amount>2</amount>
       </li>
 	  <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -250,14 +250,14 @@
     <defName>FerrexDigKid</defName>
     <title>Sandbox kid</title>
     <titleShort>Sand-kid</titleShort>
-    <baseDescription>NAME was always playing in the sandbox, or making sandcastles at the beach. This grew into a love for building and gardening, that HIS parents encouraged.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was always playing in the sandbox, or making sandcastles at the beach. This grew into a love for building and gardening, that [PAWN_possessive] parents encouraged.</baseDescription>
 	<bodyTypeGlobal>Thin</bodyTypeGlobal>
   <maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
 	<slot>Childhood</slot>
     <skillGains>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
 	  <li>
@@ -274,7 +274,7 @@
     <defName>FerrexCityKid</defName>
     <title>City kid</title>
     <titleShort>Urb-kid</titleShort>
-    <baseDescription>NAME grew up in one of the megalopolis centers on a dense Urbworld. After school, HECAP would head off to one of the metro malls or arcades. Growing up in a concrete landscape, left HIM a bit lacking when it comes to plants and animals.</baseDescription>
+    <baseDescription>[PAWN_nameDef] grew up in one of the megalopolis centers on a dense Urbworld. After school, [PAWN_pronoun] would head off to one of the metro malls or arcades. Growing up in a concrete landscape, left [PAWN_pronoun] a bit lacking when it comes to plants and animals.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	<maleCommonality>80</maleCommonality>
@@ -293,7 +293,7 @@
         <amount>2</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>-1</amount>
       </li>
     </skillGains>
@@ -306,7 +306,7 @@
     <defName>FerrexCountryKid</defName>
     <title>Farm kid</title>
     <titleShort>Farm-kid</titleShort>
-    <baseDescription>NAME grew up in an ag region, supporting the major metropolises food supply on HIS Rimworld. Living so far from other young people made social life difficult, but NAME made the best of it - though HECAP ended up a bit shy.</baseDescription>
+    <baseDescription>[PAWN_nameDef] grew up in an ag region, supporting the major metropolises food supply on [PAWN_possessive] Rimworld. Living so far from other young people made social life difficult, but [PAWN_nameDef] made the best of it - though [PAWN_pronoun] ended up a bit shy.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	<maleCommonality>80</maleCommonality>
@@ -325,7 +325,7 @@
         <amount>2</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>5</amount>
       </li>
           <li>
@@ -342,7 +342,7 @@
     <defName>FerrexGeniusKid</defName>
     <title>Young genius</title>
     <titleShort>Prodigy</titleShort>
-    <baseDescription>NAME loved tinkering with HIS toys, taking them apart and reassembling them - programming simple little computer programs from HIS elementary school textbooks - or simply reading any piece of information HECAP can get HIS hands on.</baseDescription>
+    <baseDescription>[PAWN_nameDef] loved tinkering with [PAWN_possessive] toys, taking them apart and reassembling them - programming simple little computer programs from [PAWN_possessive] elementary school textbooks - or simply reading any piece of information [PAWN_pronoun] can get [PAWN_possessive] hands on.</baseDescription>
     <slot>Childhood</slot>
   <bodyTypeGlobal>Thin</bodyTypeGlobal>
 	<maleCommonality>80</maleCommonality>
@@ -361,7 +361,7 @@
         <amount>4</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>5</amount>
       </li>
          <li>
@@ -378,7 +378,7 @@
     <defName>FerrexTVKid</defName>
     <title>TV kid</title>
     <titleShort>TV-Kid</titleShort>
-    <baseDescription>NAME was one of the cast on a children's television show. Kids everywhere on NAME's planet recognized HIM.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was one of the cast on a children's television show. Kids everywhere on [PAWN_nameDef]'s planet recognized [PAWN_pronoun].</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>80</maleCommonality>
@@ -393,7 +393,7 @@
         <amount>1</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>2</amount>
       </li>
             <li>
@@ -411,7 +411,7 @@
     <defName>FerrexGamerXKid</defName>
     <title>Gamer-kid</title>
     <titleShort>Gamer</titleShort>
-    <baseDescription>Videogames appaeled to NAME from an early age. HECAP would find all the little secrets and bugs - sometimes tinkering with game files and modifying them. This love of technology and information would stick with HIM for the rest of HIS life.</baseDescription>
+    <baseDescription>Videogames appaeled to [PAWN_nameDef] from an early age. [PAWN_pronoun] would find all the little secrets and bugs - sometimes tinkering with game files and modifying them. This love of technology and information would stick with [PAWN_pronoun] for the rest of [PAWN_possessive] life.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>80</maleCommonality>
@@ -446,7 +446,7 @@
     <defName>FerrexAgentB</defName>
     <title>Union agent</title>
 	<titleShort>Union-agent</titleShort>
-    <baseDescription>NAME was a negotiatior and agent for one of the large labor unions on HIS urbworld. HECAP was quite successful, earning a reputation as a fearsome negotiator.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a negotiatior and agent for one of the large labor unions on [PAWN_possessive] urbworld. [PAWN_pronoun] was quite successful, earning a reputation as a fearsome negotiator.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>FerrexBackstory</li>
@@ -464,7 +464,7 @@
         <amount>4</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -474,7 +474,7 @@
     <defName>FerrexSales</defName>
     <title>Sales</title>
 	<titleShort>Sales</titleShort>
-    <baseDescription>NAME worked in sales and marketing for one of the Ferrex megacorps. Some of the company's most successful sales campaigns came from HIS desk.</baseDescription>
+    <baseDescription>[PAWN_nameDef] worked in sales and marketing for one of the Ferrex megacorps. Some of the company's most successful sales campaigns came from [PAWN_possessive] desk.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>FerrexBackstory</li>
@@ -502,7 +502,7 @@
     <defName>FerrexSpyTwo</defName>
     <title>Industrial spy</title>
 	<titleShort>Ind-Spy</titleShort>
-    <baseDescription>NAME worked in industrial espionage - stealing precious company secrets and delivering them to a contractor, or auctioning them off to the highest bidder. The last auction gathered a bit to much attention, and NAME had to 'relocate' quickly, or risk exposure.</baseDescription>
+    <baseDescription>[PAWN_nameDef] worked in industrial espionage - stealing precious company secrets and delivering them to a contractor, or auctioning them off to the highest bidder. The last auction gathered a bit to much attention, and [PAWN_nameDef] had to 'relocate' quickly, or risk exposure.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>FerrexBackstory</li>
@@ -534,7 +534,7 @@
     <defName>FerrexGunmaker</defName>
     <title>Gunsmith</title>
     <titleShort>Gunsmith</titleShort>
-    <baseDescription>NAME was interested in guns and firearms of all kinds from a young age. HIS interest developed into a passion, and HECAP became one of the foremost independant weapons designers of the allied races.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was interested in guns and firearms of all kinds from a young age. [PAWN_possessive] interest developed into a passion, and [PAWN_pronoun] became one of the foremost independant weapons designers of the allied races.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
@@ -558,7 +558,7 @@
     <defName>FerrexSexSlave</defName>
     <title>Consort</title>
     <titleShort>Consort</titleShort>
-    <baseDescription>NAME was captured by slavers and sold to a lecherous tycoon. HECAP was forced to tend the gardens, and do all sorts of lewd acts for HIS 'owner', but grew accustomed to the otherwise lavish environment, and spoiled as far as labor is concerned.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was captured by slavers and sold to a lecherous tycoon. [PAWN_pronoun] was forced to tend the gardens, and do all sorts of lewd acts for [PAWN_possessive] 'owner', but grew accustomed to the otherwise lavish environment, and spoiled as far as labor is concerned.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>10</maleCommonality>
   	<femaleCommonality>20</femaleCommonality>
@@ -573,7 +573,7 @@
         <amount>5</amount>
         </li>
 	     <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -586,7 +586,7 @@
     <defName>FerrexLasminer</defName>
     <title>Ferrex lasminer</title>
     <titleShort>Lasminer</titleShort>
-    <baseDescription>NAME operated a laser-mining rig at an advanced asteroidal mining station, and occasionally operated manual equipment when they'd pumped atmosphere into a particularly rich shaft. HECAP developed a strong back and keen eye with HIS laser-drill.</baseDescription>
+    <baseDescription>[PAWN_nameDef] operated a laser-mining rig at an advanced asteroidal mining station, and occasionally operated manual equipment when they'd pumped atmosphere into a particularly rich shaft. [PAWN_pronoun] developed a strong back and keen eye with [PAWN_possessive] laser-drill.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>30</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
@@ -610,7 +610,7 @@
     <defName>FerrexBiogen</defName>
     <title>Geneticist</title>
     <titleShort>Geneticist</titleShort>
-    <baseDescription>NAME is a bio-Intellectualer for the Xenn Empire. HECAP has dedicated HIS life to unravelling the genome and improving HIS race, and the quality of life for the Alliance... FOR SCIENCE!!!</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a bio-Intellectualer for the Xenn Empire. [PAWN_pronoun] has dedicated [PAWN_possessive] life to unravelling the genome and improving [PAWN_possessive] race, and the quality of life for the Alliance... FOR SCIENCE!!!</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
@@ -634,7 +634,7 @@
     <defName>FerrexHunterBS</defName>
     <title>Ferrex hunter</title>
     <titleShort>Hunter</titleShort>
-    <baseDescription>NAME is a professional hunter. Sometimes called to put down manhunters, or guide rich dentists on Safari, HIS skills as a tracker are only matched by HIS skill at handling.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a professional hunter. Sometimes called to put down manhunters, or guide rich dentists on Safari, [PAWN_possessive] skills as a tracker are only matched by [PAWN_possessive] skill at handling.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>25</maleCommonality>
 	<femaleCommonality>25</femaleCommonality>
@@ -663,7 +663,7 @@
     <defName>FerrexFarmer</defName>
     <title>Turbofarmer</title>
     <titleShort>Turbofarmer</titleShort>
-    <baseDescription>NAME managed a ranch that grew large quantities of feed-stock for Xenguana. HECAP was on HIS way to a big ag-conference on the nearby moon, when pirates attacked the shuttle! Luckily, the law intervened, but not before the shuttle had taken serious damage, forcing everyone to abandon ship and make for the escape pods...</baseDescription>
+    <baseDescription>[PAWN_nameDef] managed a ranch that grew large quantities of feed-stock for Xenguana. [PAWN_pronoun] was on [PAWN_possessive] way to a big ag-conference on the nearby moon, when pirates attacked the shuttle! Luckily, the law intervened, but not before the shuttle had taken serious damage, forcing everyone to abandon ship and make for the escape pods...</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
@@ -687,7 +687,7 @@
     <defName>FerrexTrailblazer</defName>
     <title>Trail blazer</title>
     <titleShort>Blazer</titleShort>
-    <baseDescription>NAME is at the forefront of the effort to expand the territories controlled by the Alliance - rushing headlong into the unknown to colonize uncharted worlds and eke out a living.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is at the forefront of the effort to expand the territories controlled by the Alliance - rushing headlong into the unknown to colonize uncharted worlds and eke out a living.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>30</maleCommonality>
 	<femaleCommonality>30</femaleCommonality>
@@ -698,7 +698,7 @@
         <amount>3</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>3</amount>
       </li>
       <li>
@@ -716,7 +716,7 @@
     <defName>FerrexResearch</defName>
     <title>Intel research</title>
     <titleShort>Research</titleShort>
-    <baseDescription>NAME was head of research in the headquarters for the Ferrex Intelligence Service, investigating and untangling the webs of lies surrounding enemy agents. HECAP even helped to uncover an enemy mole, (not a gofer) who was compromising agents in the field.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was head of research in the headquarters for the Ferrex Intelligence Service, investigating and untangling the webs of lies surrounding enemy agents. [PAWN_pronoun] even helped to uncover an enemy mole, (not a gofer) who was compromising agents in the field.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
@@ -744,7 +744,7 @@
     <defName>FerrexDoctor</defName>
     <title>Frontier doctor</title>
     <titleShort>Doc</titleShort>
-    <baseDescription>NAME has taken an oath to devote HIS life to healing others. HECAP has taken HIS mission out to the furthest reaches and the dustiest outposts. You know... places like this...</baseDescription>
+    <baseDescription>[PAWN_nameDef] has taken an oath to devote [PAWN_possessive] life to healing others. [PAWN_pronoun] has taken [PAWN_possessive] mission out to the furthest reaches and the dustiest outposts. You know... places like this...</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>25</maleCommonality>
 	<femaleCommonality>25</femaleCommonality>
@@ -764,7 +764,7 @@
     <defName>FerrexChef</defName>
     <title>Ferrex line-cook</title>
     <titleShort>Line-cook</titleShort>
-    <baseDescription>NAME is a line-cook, a cook working under a master chef in a big kitchen. HECAP has helped prepare meals for some of the highest functionaries in Ferrex and Xenn society.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a line-cook, a cook working under a master chef in a big kitchen. [PAWN_pronoun] has helped prepare meals for some of the highest functionaries in Ferrex and Xenn society.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>30</maleCommonality>
 	<femaleCommonality>30</femaleCommonality>
@@ -784,7 +784,7 @@
     <defName>FerrexArchivist</defName>
     <title>Ferrex archivist</title>
     <titleShort>Alpha</titleShort>
-    <baseDescription>NAME bears the burden of leadership among HIS community. Ferrex are a curious and somewhat furtive race, this leads them to collectively horde knowledge. So much so, that their Leaders are called "Archivists", and they serve this function as well as governmental administration. Among HIS peers, NAME is that leader.</baseDescription>
+    <baseDescription>[PAWN_nameDef] bears the burden of leadership among [PAWN_possessive] community. Ferrex are a curious and somewhat furtive race, this leads them to collectively horde knowledge. So much so, that their Leaders are called "Archivists", and they serve this function as well as governmental administration. Among [PAWN_possessive] peers, [PAWN_nameDef] is that leader.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
@@ -812,7 +812,7 @@
     <defName>PrivateFerrex</defName>
     <title>Courier agent</title>
     <titleShort>Courier</titleShort>
-    <baseDescription>NAME is a low-ranking courier agent for the Ferrex intelligence. It is HIS duty to deliver small items and packages, or information, wherever HIS superiors order.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a low-ranking courier agent for the Ferrex intelligence. It is [PAWN_possessive] duty to deliver small items and packages, or information, wherever [PAWN_possessive] superiors order.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>30</maleCommonality>
   	<femaleCommonality>30</femaleCommonality>
@@ -836,7 +836,7 @@
     <defName>MajorFerrex</defName>
     <title>Ferrex scalphunter</title>
     <titleShort>Scalphunter</titleShort>
-    <baseDescription>NAME is a 'scalphunter' for Ferrex intelligence. HECAP does the 'dirty work' - spotting, seducing, and 'disposing of' enemy agents. Charming, but deadly.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a 'scalphunter' for Ferrex intelligence. [PAWN_pronoun] does the 'dirty work' - spotting, seducing, and 'disposing of' enemy agents. Charming, but deadly.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>20</maleCommonality>
 	  <femaleCommonality>20</femaleCommonality>
@@ -864,7 +864,7 @@
     <defName>FerrexSpacerAdult</defName>
     <title>Ferrex space-trader</title>
     <titleShort>R-Spacer</titleShort>
-    <baseDescription>NAME was a free-trader, roving the Ferrex Empire and it's neighbors space searching for deals and opportunities for profit. Until now, HE was flying a ship, making deals with colonies like these... I wonder what happened?</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a free-trader, roving the Ferrex Empire and it's neighbors space searching for deals and opportunities for profit. Until now, HE was flying a ship, making deals with colonies like these... I wonder what happened?</baseDescription>
     <slot>Adulthood</slot>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>30</maleCommonality>
@@ -892,7 +892,7 @@
     <defName>FerrexBusinessman</defName>
     <title>Businessferret</title>
     <titleShort>Businessferret</titleShort>
-    <baseDescription>NAME is one of the many Ferrex occupied with middle-management in a major sales corporation. In HIS off-time, HECAP enjoys the great outdoors - often venturing on minor hunting expeditions.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is one of the many Ferrex occupied with middle-management in a major sales corporation. In [PAWN_possessive] off-time, [PAWN_pronoun] enjoys the great outdoors - often venturing on minor hunting expeditions.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>28</maleCommonality>
 	<femaleCommonality>28</femaleCommonality>
@@ -924,7 +924,7 @@
     <defName>FerrexNinja</defName>
     <title>Ferrex ninja</title>
     <titleShort>Ninja</titleShort>
-    <baseDescription>NAME is among the few master practitioners of ninjitsu, and various forms of budo - and has used these skills in loyal service to HIS lord for many years.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is among the few master practitioners of ninjitsu, and various forms of budo - and has used these skills in loyal service to [PAWN_possessive] lord for many years.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>28</maleCommonality>
   	<femaleCommonality>28</femaleCommonality>
@@ -957,7 +957,7 @@
     <defName>FerrexTerminator</defName>
     <title>Exterminator</title>
     <titleShort>Exterminator</titleShort>
-    <baseDescription>NAME HAAATES bugs! HECAP has made a living out of killing as many bugs as HECAP can! Infestation? LEMME AT EM!</baseDescription>
+    <baseDescription>[PAWN_nameDef] HAAATES bugs! [PAWN_pronoun] has made a living out of killing as many bugs as [PAWN_pronoun] can! Infestation? LEMME AT EM!</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>10</maleCommonality>
 	<femaleCommonality>10</femaleCommonality>
@@ -989,7 +989,7 @@
     <defName>FerrexSpyBS</defName>
     <title>Retired spymaster</title>
     <titleShort>Control</titleShort>
-    <baseDescription>NAME was the head director, 'control', for the Ferrex intelligence agency. What strange chain of events led this mysterious figure here?..... I wonder...</baseDescription>
+    <baseDescription>[PAWN_nameDef] was the head director, 'control', for the Ferrex intelligence agency. What strange chain of events led this mysterious figure here?..... I wonder...</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>10</maleCommonality>
 	<femaleCommonality>10</femaleCommonality>
@@ -1017,7 +1017,7 @@
     <defName>FerrexTXRanger</defName>
     <title>Forest ranger</title>
     <titleShort>Forester</titleShort>
-    <baseDescription>NAME was a forest ranger in the high mountains. HECAP loves the smell of fresh mountain air, and a big pine forest. Over the years, HECAP has gained a good skill for scouting, and dealing with wild animals, not to mention havng to fend off poachers.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a forest ranger in the high mountains. [PAWN_pronoun] loves the smell of fresh mountain air, and a big pine forest. Over the years, [PAWN_pronoun] has gained a good skill for scouting, and dealing with wild animals, not to mention havng to fend off poachers.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>8</maleCommonality>
 	<femaleCommonality>8</femaleCommonality>
@@ -1046,7 +1046,7 @@
     <defName>FerrexNavyCook</defName>
     <title>Famous theif</title>
     <titleShort>Theif</titleShort>
-    <baseDescription>NAME was a skilled catbuglar, pinching valuables from the homes of the rich. HECAP loved to pick targets who were particularly vain or arrogant, to strip them of a little pride, as well as their money. Somehow, while evading the law, HECAP ended up here...</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a skilled catbuglar, pinching valuables from the homes of the rich. [PAWN_pronoun] loved to pick targets who were particularly vain or arrogant, to strip them of a little pride, as well as their money. Somehow, while evading the law, [PAWN_pronoun] ended up here...</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>25</maleCommonality>
 	<femaleCommonality>25</femaleCommonality>
@@ -1074,7 +1074,7 @@
     <defName>FerrexProgrammer</defName>
     <title>Ferrex programmer</title>
     <titleShort>Programmer</titleShort>
-    <baseDescription>NAME has spent many sleepless nights hammering away at a console (not literally with a hammer - though sometimes HECAP wanted to). This allowed HIM to fund HIS second passion... Firearms. HECAP would vent HIS frustrations at the shooting range as often as HECAP could.</baseDescription>
+    <baseDescription>[PAWN_nameDef] has spent many sleepless nights hammering away at a console (not literally with a hammer - though sometimes [PAWN_pronoun] wanted to). This allowed [PAWN_pronoun] to fund [PAWN_possessive] second passion... Firearms. [PAWN_pronoun] would vent [PAWN_possessive] frustrations at the shooting range as often as [PAWN_pronoun] could.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>30</maleCommonality>
 	<femaleCommonality>30</femaleCommonality>
@@ -1099,7 +1099,7 @@
     <defName>Ferrexmechw</defName>
     <title>Mech pilot</title>
     <titleShort>Mechwarrior</titleShort>
-    <baseDescription>NAME is a Battlemech pilot, a Mech Warrior. Operating these massive walking tanks, MechWarriors serve in the armies of the Great Houses or as part of a Mercenary unit, fight in the gladiatorial arenas of Solaris VII, or operate on the fringes of society as pirates and bandits. Among the Clans, a MechWarrior can either be trueborn or freeborn, with the former enjoying greater social standing.
+    <baseDescription>[PAWN_nameDef] is a Battlemech pilot, a Mech Warrior. Operating these massive walking tanks, MechWarriors serve in the armies of the Great Houses or as part of a Mercenary unit, fight in the gladiatorial arenas of Solaris VII, or operate on the fringes of society as pirates and bandits. Among the Clans, a MechWarrior can either be trueborn or freeborn, with the former enjoying greater social standing.
     The jumpship HE was on had a jump-drive failure, casting them off into the unknown. After waiting several weeks for rescue, with supplies running low, the crew decided to use the escape pods at the nearest habitable planet...
     </baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
@@ -1125,7 +1125,7 @@
     <defName>FerrexXRestar</defName>
     <title>Restaurateur</title>
     <titleShort>Restaurateur</titleShort>
-    <baseDescription>NAME owned and operated a chain of successful high-class urbworld restaurants. Unfortunately, they didn't survive the franchise wars against Taco Gong, and HECAP was forced to flee the planet.</baseDescription>
+    <baseDescription>[PAWN_nameDef] owned and operated a chain of successful high-class urbworld restaurants. Unfortunately, they didn't survive the franchise wars against Taco Gong, and [PAWN_pronoun] was forced to flee the planet.</baseDescription>
   	<bodyTypeGlobal>Thin</bodyTypeGlobal>
   <maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>

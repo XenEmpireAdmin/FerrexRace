@@ -4,7 +4,7 @@
 		<defName>FerrexConsole</defName>
 		<label>ferrex business network</label>
 		<thingClass>Ferrex.Building_FerrexCrafter</thingClass>
-		<description>A terminal connected to the Ferrex Business Network, </description>
+		<description>A terminal connected to the Ferrex Business Network, used for browsing and purchasing colonist contracts.</description>
 		<graphicData>
 			<texPath>Things/Building/MiniComm</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -23,7 +23,7 @@
 		<canOverlapZones>false</canOverlapZones>
 		<costStuffCount>300</costStuffCount>
 		<costList>
-			<Component>15</Component>
+			<ComponentIndustrial>15</ComponentIndustrial>
 		</costList>
 		<tickerType>Normal</tickerType>
 		<stuffCategories>
@@ -48,7 +48,6 @@
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<startElectricalFires>true</startElectricalFires>
 				<basePowerConsumption>800</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Glower">
